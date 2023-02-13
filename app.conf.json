@@ -1,0 +1,19 @@
+{
+    "database": {
+        "host": "localhost",
+        "user": "postgres",
+        "name": "test-transvision",
+        "port": 5432,
+        "password": "@kurakura06",
+        "max_idle_connection": 30,
+        "max_lifetime_connection": 30
+    },
+    "jwt": {
+        "token_secret": "JANJIJIWAKENANGAN",
+        "expaired_duration": 18000
+    },
+    "base_url": "localhost:7010/",
+    "server": {
+        "port": "7010"
+    }
+}
